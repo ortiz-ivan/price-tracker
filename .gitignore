@@ -1,0 +1,50 @@
+# --- Archivos del entorno virtual ---
+venv/
+.env/
+.envrc
+*.env
+
+# --- Archivos de configuración y credenciales ---
+productos.json
+config.json
+*.key
+*.pem
+
+# --- Archivos de Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.bak
+*.swp
+
+# --- Archivos del sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Archivos de IDEs ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Archivos de dependencias ---
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+pip-wheel-metadata/
+
+# --- Archivos de pruebas ---
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+tests/__pycache__/
+
+# --- Archivos temporales del sistema operativo ---
+*.out
+*.lock
+*.pid

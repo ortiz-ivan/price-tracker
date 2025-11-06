@@ -18,6 +18,8 @@ Configuración segura: utiliza variables de entorno con .env para proteger crede
 
 Ejecución programada: emplea schedule para automatizar la ejecución diaria sin intervención manual.
 
+Estructura del proyecto
+bash``
 price-tracker/
 │
 ├── main.py                 # Script principal del sistema

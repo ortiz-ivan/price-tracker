@@ -4,7 +4,7 @@ Price Tracker Automation es un script desarrollado en Python que realiza el segu
 
 Este proyecto está diseñado con un enfoque modular, seguro y fácilmente mantenible, integrando buenas prácticas de desarrollo para la automatización de tareas y monitoreo de datos web.
 
-🚀 Características principales
+Características principales
 
 Web Scraping automatizado: obtiene dinámicamente precios y estado de stock desde páginas de productos.
 
@@ -18,17 +18,17 @@ Configuración segura: utiliza variables de entorno con .env para proteger crede
 
 Ejecución programada: emplea schedule para automatizar la ejecución diaria sin intervención manual.
 
-🏗️ Estructura del proyecto
 price-tracker/
 │
-├── main.py # Script principal del sistema
-├── requirements.txt # Dependencias del proyecto
-├── .env # Variables de entorno (no se versiona)
-├── .env.example # Plantilla de variables de entorno
-├── .gitignore # Archivos y carpetas excluidos del control de versiones
+├── main.py                 # Script principal del sistema
+├── requirements.txt        # Dependencias del proyecto
+├── .env                    # Variables de entorno (no se versiona)
+├── .env.example            # Plantilla de variables de entorno
+├── .gitignore              # Archivos y carpetas excluidos del control de versiones
 └── data/
-├── productos.json # Historial de precios y stock
-└── price_tracker.log # Registro de ejecución y eventos
+    ├── productos.json      # Historial de precios y stock
+    └── price_tracker.log   # Registro de ejecución y eventos
+
 
 Instalación y configuración
 
